@@ -16,7 +16,7 @@ import { GlobalURL } from './constants';
 import { useAccount } from 'wagmi';
 
 // const BASE_SEPOLIA_CHAIN_ID = 84532;
-const BASE_CHAIN_ID = 8453;
+const BASE_CHAIN_ID = 84532;
 const App = () => {
   const [isConnected, setIsConnected] = useState(false);
   const [walletAddress, setWalletAddress] = useState(null);

@@ -13,14 +13,14 @@ import {
   RainbowKitProvider,
 } from "@rainbow-me/rainbowkit";
 import { WagmiProvider } from "wagmi";
-import {  base } from "wagmi/chains";
+import {  baseSepolia } from "wagmi/chains";
 import { Wagmiconfig } from './components/coinbase/wagmi';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const config = getDefaultConfig({
   appName: "My RainbowKit App",
   projectId: "cfec78e4-8eb3-4efc-a177-8d0cbd6ef273",
-  chains: [ base ],
+  chains: [ baseSepolia ],
   ssr: true,
 });
 
