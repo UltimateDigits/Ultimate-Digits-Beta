@@ -120,7 +120,7 @@ const SelectionPage = ({ connectionType, setIsConnected }) => {
                   alt=""
                 />
               </div>
-              <div className="px-5 pt-1 pb-3">
+              <div className="px-5 pt-11 pb-3">
                 <p className="font-bold text-2xl text-center">
                   Virtual number
                 </p>
