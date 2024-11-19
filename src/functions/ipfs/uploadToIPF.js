@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const PINATA_API_KEY = "364a2ee707c99061169f";
-const PINATA_SECRET_API_KEY = "6169ad75d44c3a0b90f3daf64b37f6f001c33cf403814e1ea731a6f3eda05e97";
+const PINATA_API_KEY = "165069daa342e0fb500b";
+const PINATA_SECRET_API_KEY = "2dd7b2088594744d9abac5c6585c0e408d746755f9a2348c3a511c6b9b93ccbb";
 
 // Helper function to fetch image from path and convert to Blob
 const fetchImageAsBlob = async (imagePath) => {
