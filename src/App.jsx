@@ -29,7 +29,9 @@ const App = () => {
     try {
       const response = await fetch(`${GlobalURL}/user/getUser/${address}`);
       const data = await response.json();
+      console.log("user details from app.jsx", data);
       return data.exists;
+      
     } catch (error) {
       console.error("Error checking user existence", error);
       return false;
@@ -42,8 +44,12 @@ const App = () => {
       const result = await checkIfUserExists(account.address);
       console.log("loaded");
       setUserExists(result);
+      console.log("result of user", result);
+
       if (result) {
         navigate('/sending-crpto/home-page');
+      } else {
+        navigate('/selection-page')
       }
     }
   };
